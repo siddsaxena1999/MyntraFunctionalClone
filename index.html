@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Functional Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+        <div class="hamburger-icon">
+            <button onclick="showList()">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="logo_container">
+            <a href="#"><img src="./images/myntra_logo.webp" alt="myntra logo" class="myntra_logo"></a>
+        </div>
+
+        <div class="burger">
+            <button onclick="hideList()">X</button>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Home & Living</a>
+            <a href="">Beauty</a>
+            <a href="">Studio <sup>New</sup></a>
+        </div>
+
+        <nav class="navbar">
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Home & Living</a>
+            <a href="">Beauty</a>
+            <a href="">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input placeholder="Search for products, brands and more" class="search_input">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <a href="pages/bag.html" class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+                <span class="bag-item-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="items-container">
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>Online Shopping</h3>
+                <a href="">Men</a>
+                <a href="">Women</a>
+                <a href="">Kids</a>
+                <a href="">Home & Living</a>
+                <a href="">Beauty</a>
+                <a href="">Gift Card</a>
+                <a href="">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>Customer Policies</h3>
+                <a href="">Contact Us</a>
+                <a href="">FAQ</a>
+                <a href="">T&C</a>
+                <a href="">Terms of Use</a>
+                <a href="">Track Orders</a>
+                <a href="">Shipping</a>
+                <a href="">Cancellation</a>
+                <a href="">Returns</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Grievance Officer</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>Experience Myntra App on Mobile</h3>
+                <div class="footer-btns">
+                    <button>
+                        <div class="btn-icon"><i class="fa-brands fa-google-play"></i></div>
+                        <div class="btn-text"><span>Get it on</span><br>Google Play</div>
+                    </button>
+                    <button>
+                        <div class="btn-icon"><i class="fa-brands fa-apple"></i></div>
+                        <div class="btn-text"><span>Download on the</span><br>Apple Store</div>
+                    </button>
+                </div>
+            </div>
+
+            
+        </div>
+        <hr>
+
+        <div class="copyright">© 2024 www.myntra.com. All rights reserved.</div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/items.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
